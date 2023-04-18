@@ -1,0 +1,39 @@
+<div class="container">
+    <h1 class="bg-primary text-white border border-dark my-5 p-2 rounded">Créer une question</h1>
+    {validationQuestion}
+    <form method="POST" action="validationCreationQuestion.html">
+        <div class="form-group">
+            <label for="questionnaire">Questionnaire</label>
+            <select class="form-control" id="questionnaire" name="questionnaire">
+                {Questionnaires}
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="question">Question</label>
+          <input type="text" class="form-control" id="question" name="question" placeholder="Entrer la question">
+        </div>
+        <div class="form-group">
+          <label for="reponseA">Reponse A</label>
+          <input type="text" class="form-control" id="reponseA" name="reponseA" placeholder="reponse A">
+        </div>
+        <div class="form-group">
+          <label for="reponseB">Reponse B</label>
+          <input type="text" class="form-control" id="reponseB" name="reponseB" placeholder="reponse B">
+        </div>
+        <div class="form-group">
+          <label for="reponseC">Reponse C</label>
+          <input type="text" class="form-control" id="reponseC" name="reponseC" placeholder="reponse C">
+        </div>
+        <div class="form-group">
+          <label for="reponseD">Reponse D</label>
+          <input type="text" class="form-control" id="reponseD" name="reponseD" placeholder="reponse D">
+        </div>
+        <div class="form-group">
+          <label for="bonneReponse">Bonne reponse</label>
+          <input type="text" class="form-control" id="bonneReponse" name="bonneReponse" placeholder="Entrer la bonne reponse">
+        </div>
+   
+        <button type="submit" class="btn btn-primary mt-2">Valider</button>
+      </form>
+
+</div>

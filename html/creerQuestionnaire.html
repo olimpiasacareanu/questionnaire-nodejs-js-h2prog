@@ -1,0 +1,15 @@
+<div class="container">
+    <h1 class="bg-primary text-white border border-dark my-5 p-2 rounded">Ajouter questionnaire</h1>
+    {validationQuestionnaire}
+    <form method="POST" action="validationCreationQuestionnaire.html">
+        <div class="form-group">
+          <label for="nomQuestionnaire">Nom questionnaire</label>
+          <input type="text" class="form-control" id="nomQuestionnaire" name="nomQuestionnaire" placeholder="Entrer le nom de questionnaire">
+        </div>
+        <div class="form-group">
+          <label for="descriptionQuestionnaire">Description questionnaire</label>
+          <input type="text" class="form-control" id="descriptionQuestionnaire" name="descriptionQuestionnaire" placeholder="Entrer la description de questionnaire">
+        </div> 
+        <button type="submit" class="btn btn-primary mt-2">Valider</button>
+      </form>
+</div>
